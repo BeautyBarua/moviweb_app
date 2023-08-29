@@ -1,0 +1,87 @@
+[
+    {
+        "id": 1,
+        "name": "Alice",
+        "movies": [
+            {
+                "id": 2,
+                "Title": "The Dark Knight",
+                "director": "Christopher Nolan",
+                "year": 2008,
+                "rating": 9.0
+            },
+            {
+                "Title": "Jaws",
+                "director": "Steven Spielberg",
+                "year": 1975,
+                "rating": 8.1,
+                "id": 3
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Bob",
+        "movies": [
+            {
+                "id": 5,
+                "Title": "The Matrix",
+                "director": "The Wachowskis",
+                "year": 1999,
+                "rating": 8.7
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Charlie",
+        "movies": [
+            {
+                "id": 6,
+                "Title": "Pulp Fiction",
+                "director": "Quentin Tarantino",
+                "year": 1994,
+                "rating": 8.9
+            },
+            {
+                "id": 7,
+                "Title": "Fight Club",
+                "director": "David Fincher",
+                "year": 1999,
+                "rating": 8.8
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Beauty"
+    },
+    {
+        "id": 5,
+        "name": "Beauty Barua",
+        "movies": [
+            {
+                "id": 9,
+                "Title": "Titanic",
+                "director": "James Cameron",
+                "year": 1997,
+                "rating": 7.9
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "name": "John",
+        "movies": []
+    },
+    {
+        "id": 7,
+        "name": "Amanda",
+        "movies": []
+    },
+    {
+        "name": "Anna",
+        "movies": [],
+        "id": 8
+    }
+]

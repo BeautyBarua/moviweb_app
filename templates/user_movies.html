@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ user['name'] }} Movies</title>
+    <!-- Add Bootstrap CSS link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!-- Add your app's CSS file -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+
+</head>
+<body>
+    <h1>{{ user['name'] }}'s Favorite Movies</h1>
+    <ul>
+        {% for movie in movies %}
+            <li>{{ movie['Title'] }} ({{ movie['year'] }}) - Rating: {{ movie['rating'] }}</li>
+        {% endfor %}
+    </ul>
+</body>
+</html>
